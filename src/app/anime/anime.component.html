@@ -1,0 +1,10 @@
+<div class="border p-2 mb-4">
+  <p class="font-weight-bold">{{ anime.title }}</p>
+  <p>{{ anime.waifuName }}</p>
+  <div class="d-flex justify-content-between align-items-center">
+    <div class="text-secondary">{{ anime.likes }} likes</div>
+    <div>
+      <button (click)="addLike()" class="btn btn-info btn-sm px-4">Like</button>
+    </div>
+  </div>
+</div>
